@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Walk Log</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+
+
+    <h1>Personal Hiking Log</h1>
+
+      <form id="new-entry-form">
+        <div id="form-wrapper">
+
+          <!-- Walk Name -->
+          <div class="form-item">
+            <label for="name" class="primary">Walk Name</label>
+            <input type="text" id="name" required/>
+          </div>
+
+          <!-- distance -->
+          <div class="form-item">
+            <label for="distance" class="primary">Distance (m)</label>
+            <input type="number" id="distance" required/>
+          </div>
+
+          <!-- time taken -->
+          <div class="form-item">
+            <label for="time" class="primary">Time Taken (hrs)</label>
+            <input type="number" id="time" required/>
+          </div>
+          <input type="submit" value="save"/>
+        </div>
+      </form>
+
+      <hr>
+
+    <h2>Walks Completed</h2>
+
+    <!-- form output -->
+    <div id="walks">
+
+    </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+body {
+  font-family: lato;
+  background-color: mediumseagreen;
+  color: white;
+}
+
+div {
+  margin-top: 10px;
+}
+
+.container {
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 15px;
+  max-width: 450px;
+  margin: auto;
+}
+
+.entry {
+  background-color: whitesmoke;
+  color: black;
+  padding: 20px;
+  margin-top: 10px;
+  width: 400px;
+}
