@@ -8,12 +8,13 @@ form.addEventListener('submit', (event) => {
   const name =  event.target.name.value;
   const distance =  event.target.distance.value;
   const time =  event.target.time.value;
+  const transport = event.target.transport.value;
+  const weather = event.target.weather.value;
 
-  //console.log(name, distance, time);
 
   const newEntry = document.createElement('p');
-    newEntry.textContent = `Walk Name: ${name} | Distance: ${distance} | Time Taken: ${time}`;
-    newEntry.classList.add('entry')
+    newEntry.textContent = `Walk Name: ${name} | Distance: ${distance} | Time Taken: ${time} | Access to Location: ${transport} | Weather: ${weather}`;
+    newEntry.classList.add('entry');
 
     walks.appendChild(newEntry);
 
@@ -23,7 +24,7 @@ form.addEventListener('submit', (event) => {
 
 
   const deleteButton = document.createElement('button');
-   deleteButton.textContent = `Delete`;
+   deleteButton.textContent = `Delete List`;
    deleteButton.addEventListener('click', () => {
      const remove = document.querySelectorAll('.entry');
      for ( entry of remove) {

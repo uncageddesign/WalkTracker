@@ -8,6 +8,10 @@ div {
   margin-top: 10px;
 }
 
+fieldset {
+  border: none;
+}
+
 .container {
   border: 2px solid white;
   border-radius: 15px;
@@ -18,8 +22,11 @@ div {
 
 .entry {
   background-color: whitesmoke;
+  background-image: url('bootprint.png');
+  background-repeat: no-repeat;
+  background-position: right;
   color: black;
-  padding: 20px;
+  padding: 20px 50px 20px 20px;
   margin-top: 10px;
-  width: 400px;
+  width: 370px;
 }
