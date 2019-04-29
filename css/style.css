@@ -1,6 +1,8 @@
 body {
   font-family: lato;
-  background-color: mediumseagreen;
+  background-image: url('unsplash2.jpg');
+  background-size: cover;
+  background-color: MediumSeaGreen;
   color: white;
 }
 
@@ -13,6 +15,7 @@ fieldset {
 }
 
 .container {
+  background-color: rgba(60, 159, 90, 0.5);
   border: 2px solid white;
   border-radius: 15px;
   padding: 15px;
